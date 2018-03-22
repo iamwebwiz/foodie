@@ -73,11 +73,11 @@
 
                                                                                      <div class="form-group">
 
-                                                                                                 <select  name="categories_id" >
-                                                                                                     <option > Choose Category </option>
+                                                                                                 <select name="category_id" class="form-control">
+                                                                                                     <option> Choose Category </option>
                                                                                                      @foreach($categories as $category)
                                                                                                      <option value="{{ $category->id }}"> {{ $category->name }}</option>
-                                                                                                         @endforeach
+                                                                                                     @endforeach
                                                                                                  </select>
                                                                                         </div>
 
